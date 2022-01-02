@@ -207,3 +207,18 @@ main{
     background-repeat: no-repeat;
 }
 
+.currency-table--date{
+    width: max-content;
+    height: 30px;
+    margin: 15px auto 0;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: var(--warm-black);
+}
+
