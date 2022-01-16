@@ -379,14 +379,24 @@ main{
 }
 
 
+.plans-container--slider{
+    display: flex;
+    /*gap: 50px;*/
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 
 .plans-container--card{
     position: relative; /*relative pq la etiqueta que flota debe de ser absolute*/
+    scroll-snap-align: center; /*Intenta centrar automaticamente el scroll*/
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
